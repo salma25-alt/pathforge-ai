@@ -1,0 +1,38 @@
+:root {
+  --bg: #090d16;
+  --surface: #111827;
+  --elevated: #182235;
+  --input: #0b111e;
+  --border: rgba(148, 163, 184, 0.2);
+  --text: #f8fafc;
+  --subtext: #cbd5e1;
+  --muted: #94a3b8;
+  --primary: #6366f1;
+  --primary-hover: #4f46e5;
+  --core: #10b981;
+  --soft: #c084fc;
+  --warn: #fbbf24;
+  --danger: #f87171;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: radial-gradient(circle at top center, #131c31 0%, var(--bg) 55%);
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: -0.02em;
+}
